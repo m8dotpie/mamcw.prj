@@ -1,0 +1,642 @@
+Input file: D:\MainFolder\Programs\Mechanics & Machines\IgorMAMfiles\mamcw.prj\Model\Iter2\assembly_motion1-solution001.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2022
+
+
+[1764]
+Info: The Business Analytics flag has been set to Yes.
+
+Solver: Simcenter 3D Motion Version 2206.0001 (13.0) Sep  6 2022 03:30:13 Intel Release 64bit
+Interface: RC2206_6000 2022-09-14
+Hostname: DESKTOP-0UUJCF0
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.60000000000000E-03
+  old MAX.int.step = 5.0000000000000E-02
+  new MAX.int.step = 0.60000000000000E-03
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [27800@localhost]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   44
+Number of generalized coordinates     =                   43
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.670435E-13
+
+ Element: disk
+    Coordinate    New Value     Original Value  Difference
+    X            -0.13492E-01   -0.13492E-01     0.0000    
+    Y            -0.31500       -0.31500         0.0000    
+    Z             0.83841E-01    0.83841E-01     0.0000    
+    E0             0.0000         0.0000         0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2            0.70711        0.70711         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: end_effector
+    Coordinate    New Value     Original Value  Difference
+    X            -0.10566       -0.10566         0.0000    
+    Y            -0.32866       -0.32866         0.0000    
+    Z             0.13196        0.13196         0.0000    
+    E0            0.91233        0.91233         0.0000    
+    E1           -0.76217E-04   -0.76217E-04     0.0000    
+    E2           -0.40946       -0.40946         0.0000    
+    E3           -0.51039E-03   -0.51039E-03     0.0000    
+
+ Element: inner_rod
+    Coordinate    New Value     Original Value  Difference
+    X            -0.46766E-01   -0.46766E-01     0.0000    
+    Y            -0.32868       -0.32868         0.0000    
+    Z             0.72592E-01    0.72592E-01     0.0000    
+    E0            0.24298        0.24298         0.0000    
+    E1            0.66536        0.66536         0.0000    
+    E2            0.66267        0.66267         0.0000    
+    E3            0.24318        0.24318         0.0000    
+
+ Element: pipka
+    Coordinate    New Value     Original Value  Difference
+    X            -0.12546E-01   -0.12546E-01     0.0000    
+    Y            -0.32400       -0.32400         0.0000    
+    Z             0.32117E-01    0.32117E-01     0.0000    
+    E0            0.70711        0.70711         0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: sigma_balls
+    Coordinate    New Value     Original Value  Difference
+    X            -0.12229       -0.12229         0.0000    
+    Y            -0.32865       -0.32865         0.0000    
+    Z             0.15083        0.15083         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: Drv001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.39887E-28    0.39887E-28     0.0000    
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J001_j"
+
+ Name: J005
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "inner_rod/J005_j"
+
+ Name: J005
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "inner_rod/J005_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 1) relative translation along X axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 2) relative translation along Y axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  (27) relative rotation about cross product of Y axis of "the_ground/J002_j" and Z axis of "disk/J002_i"
+
+ Name: J002
+    Type:  Bracket joint                  (25) relative rotation about cross product of X axis of "disk/J002_i" and Z axis of "the_ground/J002_j"
+
+
+The remaining constraints in which the redundant
+constraints are linearly dependent to are summarized as:
+
+Name: J001
+     constraint ( 3) relative translation along Z axis of "the_ground/J001_j"
+     is linearly dependent to:
+
+     Name: J004
+        Constraint: ( 4) relative rotation about X axis of "inner_rod/J004_j"  Factor:  -0.3266E-01
+     Name: J005
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:    1.000    
+     Name: J006
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:    1.000    
+     Name: J004
+        Constraint: ( 2) relative translation along Y axis of "inner_rod/J004_j"  Factor:   -1.000    
+     Name: J003
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:    1.000    
+     Name: J006
+        Constraint: ( 5) relative rotation about Y axis of "the_ground/J006_j"  Factor:  -0.5172E-01
+
+Name: J005
+     constraint ( 4) relative rotation about X axis of "inner_rod/J005_j"
+     is linearly dependent to:
+
+     Name: J003
+        Constraint: ( 4) relative rotation about X axis of "disk/J003_j"  Factor:   -1.000    
+     Name: J004
+        Constraint: ( 6) relative rotation about Z axis of "inner_rod/J004_j"  Factor:   0.7637    
+     Name: J004
+        Constraint: ( 4) relative rotation about X axis of "inner_rod/J004_j"  Factor:   0.6456    
+     Name: J001
+        Constraint: (27) relative rotation about cross product of Y axis of "the_ground/J001_j" and Z axis of "pipka/J001_i"  Factor:    1.000    
+     Name: J006
+        Constraint: ( 4) relative rotation about X axis of "the_ground/J006_j"  Factor:   -1.000    
+
+Name: J005
+     constraint ( 5) relative rotation about Y axis of "inner_rod/J005_j"
+     is linearly dependent to:
+
+     Name: J003
+        Constraint: ( 5) relative rotation about Y axis of "disk/J003_j"  Factor:   -1.000    
+     Name: J001
+        Constraint: (25) relative rotation about cross product of X axis of "pipka/J001_i" and Z axis of "the_ground/J001_j"  Factor:   -1.000    
+     Name: J004
+        Constraint: ( 6) relative rotation about Z axis of "inner_rod/J004_j"  Factor:   0.6456    
+     Name: J004
+        Constraint: ( 4) relative rotation about X axis of "inner_rod/J004_j"  Factor:  -0.7637    
+     Name: J006
+        Constraint: ( 5) relative rotation about Y axis of "the_ground/J006_j"  Factor:   -1.000    
+
+Name: J002
+     constraint ( 1) relative translation along X axis of "the_ground/J002_j"
+     is linearly dependent to:
+
+     Name: J006
+        Constraint: ( 3) relative translation along Z axis of "Global coordinate system"  Factor:   -1.000    
+
+Name: J002
+     constraint ( 2) relative translation along Y axis of "the_ground/J002_j"
+     is linearly dependent to:
+
+     Name: J006
+        Constraint: ( 1) relative translation along X axis of "Global coordinate system"  Factor:   -1.000    
+
+Name: J002
+     constraint ( 3) relative translation along Z axis of "the_ground/J002_j"
+     is linearly dependent to:
+
+     Name: J006
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:    1.000    
+
+Name: J002
+     constraint (27) relative rotation about cross product of Y axis of "the_ground/J002_j" and Z axis of "disk/J002_i"
+     is linearly dependent to:
+
+     Name: J006
+        Constraint: ( 4) relative rotation about X axis of "the_ground/J006_j"  Factor:    1.000    
+
+Name: J002
+     constraint (25) relative rotation about cross product of X axis of "disk/J002_i" and Z axis of "the_ground/J002_j"
+     is linearly dependent to:
+
+     Name: J006
+        Constraint: ( 5) relative rotation about Y axis of "the_ground/J006_j"  Factor:   -1.000    
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: sigma_balls
+    Coordinate:  E3        
+
+ Element: pipka
+    Coordinate:  E2        
+
+ Element: sigma_balls
+    Coordinate:  E1        
+
+ Element: sigma_balls
+    Coordinate:  Z         
+
+ Element: sigma_balls
+    Coordinate:  X         
+
+ Element: sigma_balls
+    Coordinate:  E2        
+
+ Element: sigma_balls
+    Coordinate:  Y         
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: disk
+    Coordinate    Velocity
+    X             0.105653E-10
+    Y              0.00000    
+    Z             0.295338E-11
+    E0             1.11072    
+    E1             0.00000    
+    E2             0.00000    
+    E3             1.11072    
+
+ Element: end_effector
+    Coordinate    Velocity
+    X             0.659673    
+    Y              0.00000    
+    Z             0.616758    
+    E0             1.35416    
+    E1           -0.168794E-02
+    E2             3.01722    
+    E3            0.252063E-03
+
+ Element: inner_rod
+    Coordinate    Velocity
+    X             0.267717    
+    Y              0.00000    
+    Z             0.226339    
+    E0            -2.19155    
+    E1            0.804228    
+    E2            0.803569    
+    E3            -2.20044    
+
+ Element: pipka
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: sigma_balls
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Drv001_RZ
+    Coordinate    Velocity
+    Rel.angle     -3.14159    
+
+Solution of velocities in local coordinates:
+
+ Element: disk
+    Coordinate    Velocity
+    X             0.105653E-10
+    Y              0.00000    
+    Z             0.295338E-11
+    OMEGA_XL      -3.14159    
+    OMEGA_YL      0.888178E-15
+    OMEGA_ZL       0.00000    
+
+ Element: end_effector
+    Coordinate    Velocity
+    X             0.659673    
+    Y              0.00000    
+    Z             0.616758    
+    OMEGA_XL     -0.574698E-02
+    OMEGA_YL       6.61433    
+    OMEGA_ZL      0.368445E-02
+
+ Element: inner_rod
+    Coordinate    Velocity
+    X             0.267717    
+    Y              0.00000    
+    Z             0.226339    
+    OMEGA_XL       6.61429    
+    OMEGA_YL     -0.242503E-01
+    OMEGA_ZL     -0.689228E-02
+
+ Element: pipka
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: sigma_balls
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =    104974
+Number of integer data in the system  =     63744
+
+
+Solution of accelerations in local coordinates:
+
+ Element: disk
+    Coordinate    Acceleration
+    X            -0.927742E-11
+    Y             0.173472E-17
+    Z             0.331914E-10
+    OMEGAD_XL     0.198399E-27
+    OMEGAD_YL     0.438298E-14
+    OMEGAD_ZL     0.222045E-14
+
+ Element: end_effector
+    Coordinate    Acceleration
+    X              8.35398    
+    Y             0.473465E-15
+    Z              1.51200    
+    OMEGAD_XL    -0.449200E-01
+    OMEGAD_YL      51.6995    
+    OMEGAD_ZL     0.287988E-01
+
+ Element: inner_rod
+    Coordinate    Acceleration
+    X              3.58964    
+    Y             0.926197E-13
+    Z            -0.164363E-02
+    OMEGAD_XL      51.6992    
+    OMEGAD_YL    -0.189547    
+    OMEGAD_ZL    -0.538721E-01
+
+ Element: pipka
+    Coordinate    Acceleration
+    X            -0.777770E-17
+    Y             0.930083E-13
+    Z            -0.147920E-16
+    OMEGAD_XL    -0.504125E-36
+    OMEGAD_YL    -0.296462E-20
+    OMEGAD_ZL     0.681658E-05
+
+ Element: sigma_balls
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z             -9.80665    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    6
+
+Total Number of Degrees of Freedom =   37
+Number of Kinematic Constraints    =   30
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    7
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     85
+  Current simulation time =   0.290130E-02
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J001_j"
+
+ Name: J005
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "inner_rod/J005_j"
+
+ Name: J006
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "the_ground/J006_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 1) relative translation along X axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 2) relative translation along Y axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  (27) relative rotation about cross product of Y axis of "the_ground/J002_j" and Z axis of "disk/J002_i"
+
+ Name: J005
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "inner_rod/J005_j"
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     85
+  Current simulation time =   0.288340E-02
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J001_j"
+
+ Name: J006
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "the_ground/J006_j"
+
+ Name: J005
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "inner_rod/J005_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 1) relative translation along X axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 2) relative translation along Y axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J002_j"
+
+ Name: J005
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "inner_rod/J005_j"
+
+ Name: J006
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "the_ground/J006_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J001_j"
+
+ Name: J005
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "inner_rod/J005_j"
+
+ Name: J006
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "the_ground/J006_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 1) relative translation along X axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 2) relative translation along Y axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  (27) relative rotation about cross product of Y axis of "the_ground/J002_j" and Z axis of "disk/J002_i"
+
+ Name: J005
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "inner_rod/J005_j"
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     86
+  Current simulation time =   0.287724E-02
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     82
+  Current simulation time =   0.884890
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J001_j"
+
+ Name: J001
+    Type:  Bracket joint                  (27) relative rotation about cross product of Y axis of "the_ground/J001_j" and Z axis of "pipka/J001_i"
+
+ Name: J004
+    Type:  Translational joint            ( 4) relative rotation about X axis of "inner_rod/J004_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 1) relative translation along X axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 2) relative translation along Y axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  (27) relative rotation about cross product of Y axis of "the_ground/J002_j" and Z axis of "disk/J002_i"
+
+ Name: J002
+    Type:  Bracket joint                  (25) relative rotation about cross product of X axis of "disk/J002_i" and Z axis of "the_ground/J002_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J001_j"
+
+ Name: J001
+    Type:  Bracket joint                  (27) relative rotation about cross product of Y axis of "the_ground/J001_j" and Z axis of "pipka/J001_i"
+
+ Name: J006
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "the_ground/J006_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 1) relative translation along X axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 2) relative translation along Y axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  ( 3) relative translation along Z axis of "the_ground/J002_j"
+
+ Name: J002
+    Type:  Bracket joint                  (27) relative rotation about cross product of Y axis of "the_ground/J002_j" and Z axis of "disk/J002_i"
+
+ Name: J002
+    Type:  Bracket joint                  (25) relative rotation about cross product of X axis of "disk/J002_i" and Z axis of "the_ground/J002_j"
+
+The number of symbolic factorizations of the Acceleration matrix =                    4
+
+The number of symbolic factorizations of BDF Jacobian matrix =                    5
+
+[1441]
+Final integrator statistics:
+  Number of steps                 =                15398
+  Number of f-s                   =                21121
+  Number of j-s                   =                  370
+  Ratio of f-s/steps              =  1.3716716456683
+  Ratio of j-s/steps              = 0.24029094687622E-01
+  Current time                    =  9.0000000000000
+  Total velocity computations     =                    5
+  Total position computations     =                    5
+Average Integration Order =   1.892128847902    
+Average Step Size         =  0.5845240756997E-03
+
+Userdef was internal
+
+    Total elapsed CPU time:   1.470000    
+    Total clock time:          2
