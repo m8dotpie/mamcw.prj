@@ -1,0 +1,19 @@
+﻿LoadOptions_SearchPaths: "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\shafts\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\screws\\Screw M5\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\screws\\Screw M4\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\screws\\Screw M3\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\screws\\Screw M2.5\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\screws\\Nuts\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\screws\\M3 nut\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\screws\\ISO975 M4x0.7 12\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\screws\\DIN912 M3x25\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\screws\\DIN876-1 M3\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\bearings\\LMK8LUU\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\bearings\\KP08\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\bearings\\KFL08\\" "D:\\MainFolder\\Programs\\Mechanics & Machines\\IgorMAMfiles\\mamcw.prj\\Model\\Iter3\\actuator\\" D:\\Tools\\SiemensNX\\UGII... \
+ 
+LoadOptions_LoadComponents: load_all_components
+LoadOptions_PartLoadOption: minimally_load_lightweight_display
+LoadOptions_LoadWAVE: NO
+LoadOptions_LoadWAVEParents: NONE
+LoadOptions_LoadSubstitution: dont_allow_substitution
+LoadOptions_LoadLatest: NO
+LoadOptions_LoadOption: load_from_search_dirs
+LoadOptions_ManagedModeLoadOption: load_by_revision_rule
+LoadOptions_LoadFilters: load_no_components
+LoadOptions_LoadFailOption: dont_abort
+LoadOptions_ReferenceSets: "As Saved" "Use Model" "Entire Part" "Empty" 
+LoadOptions_ApplyAllLevels: NO
+LoadOptions_GenerateMissingPFM: YES
+LoadOptions_BookmarkRefSets: Import
+LoadOptions_BookmarkPartsLoad: Load_Visible
+LoadOptions_BookmarkRestoreFullyLoadedState: no
+LoadOptions_SubsetLoadBehavior: Do_Not_Update
