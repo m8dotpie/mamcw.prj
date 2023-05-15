@@ -1,0 +1,71 @@
+
+*** 23:12:22 *** 
+Starting Nastran Exporter
+
+*** 23:12:22 *** 
+Writing file D:\MainFolder\Programs\Mechanics & 
+Machines\IgorMAMfiles\mamcw.prj\Model\Iter3\mech_assembly\mech_assembly_sim3-solution_1.dat
+ 
+*** 23:12:22 *** 
+Writing SIMCENTER NASTRAN 2206.0 compatible deck
+
+*** 23:12:22 *** 
+Writing Nastran System section
+
+*** 23:12:22 *** 
+Writing File Management section
+
+*** 23:12:22 *** 
+Writing Executive Control section
+
+*** 23:12:22 *** 
+Writing Case Control section
+
+*** 23:12:22 *** 
+Writing Bulk Data section
+
+*** 23:12:22 *** 
+Writing Nodes
+
+*** 23:12:22 *** 
+Writing Elements
+
+*** 23:12:23 *** 
+Writing Physical Properties
+
+*** 23:12:23 *** 
+Writing Materials
+
+*** 23:12:23 *** 
+Writing Degree-of-Freedom Sets
+
+*** 23:12:23 *** 
+Writing Loads and Constraints
+
+*** 23:12:23 *** 
+Writing Coordinate Systems
+
+*** 23:12:23 *** 
+Validating Solution Setup
+
+*** 23:12:23 *** 
+Summary of Bulk Data cards written
+
++----------+----------+
+|   NAME   |  NUMBER  |
++----------+----------+
+| CTETRA   | 19242    |
+| FORCE    | 230      |
+| GRID     | 38987    |
+| MAT1     | 2        |
+| MATT1    | 1        |
+| PARAM    | 6        |
+| PSOLID   | 3        |
+| RBE2     | 26       |
+| SPC      | 1036     |
+| TABLEM1  | 3        |
++----------+----------+
+
+*** 23:12:23 *** 
+Nastran Deck Successfully Written
+

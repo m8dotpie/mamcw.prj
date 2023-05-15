@@ -1,0 +1,118 @@
+Simcenter Nastran 2206.5000 (Intel64 Family 6 Model 142 Stepping 10 Windows 10  ) Control File:
+--------------------------------------------------------------------------------------
+Nastran BUFFSIZE=32769 $(d:/tools/siemensnx/nxnastran/conf/nastran.rcf[1])
+Nastran BUFFPOOL=20.0X $(d:/tools/siemensnx/nxnastran/conf/nastran.rcf[4])
+Nastran DIAGA=128 DIAGB=0 $(d:/tools/siemensnx/nxnastran/conf/nastran.rcf[8])
+Nastran SYSTEM(442)=2 $(command line[5])
+Nastran REAL=2130706432 $(Memory limit for MPI and other specialized modules)
+JID='D:\MainFolder\Programs\Mechanics & Machines\IgorMAMfiles\mamcw.prj\Model\Iter3\mech_assembly\mech_assembly_sim3-solution_1.dat'
+OUT='./mech_assembly_sim3-solution_1'
+MEM=959524864
+MACH='Intel64 Family 6 Model 142 Stepping 10'
+OPER='Windows 10'
+OSV=' '
+MODEL='Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz (DESKTOP-0UUJCF0)'
+CONFIG=8666
+NPROC=8
+symbol=DELDIR='d:/tools/siemensnx/nxnastran/scnas/nast/del' $(program default)
+symbol=DEMODIR='d:/tools/siemensnx/nxnastran/scnas/nast/demo' $(program default)
+symbol=SSSALTERDIR='d:/tools/siemensnx/nxnastran/scnas/nast/misc/sssalter' $(program default)
+symbol=TPLDIR='d:/tools/siemensnx/nxnastran/scnas/nast/tpl' $(program default)
+SDIR='c:/users/domra/appdata/local/temp/mech_assembly_sim3-solution_1.T556_23'
+DBS='c:/users/domra/appdata/local/temp/mech_assembly_sim3-solution_1.T556_23'
+SCR=yes
+SMEM=20.0X
+NEWDEL='d:/tools/siemensnx/nxnastran/scnas/em64tntl/SSS'
+DEL='NXNDEF'
+AUTH='27800@localhost'
+AUTHQUE=0
+MSGCAT='d:/tools/siemensnx/nxnastran/scnas/em64tntl/analysis.msg'
+MSGDEST='f06'
+PROG=bundle
+NEWS='d:/tools/siemensnx/nxnastran/scnas/nast/news.txt'
+UMATLIB='libnxumat.dll'
+UCRPLIB='libucreep.dll'
+USOLLIB='libusol.dll'
+--------------------------------------------------------------------------------------
+NXN_ISHELLPATH=D:\Tools\SiemensNX\nxnastran\bin
+NXN_JIDPATH=
+PATH=d:/tools/siemensnx/nxnastran/scnas/em64tntl;d:/tools/siemensnx/nxnastran/scnas/em64tntl/sysnoise;d:/tools/siemensnx/nxnastran/scnas/em64tntl/softwareanalytics;d:/tools/siemensnx/nxnastran/scnas/em64tntl/samcef;d:/tools/siemensnx/nxnastran/scnas/em64tntl/impi/bin;d:/tools/siemensnx/nxnastran/scnas/em64tntl/monitor;D:\Tools\Java\bin;D:\Tools\SiemensNX\nxbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;D:\Tools\SiemensNX\CAPITALINTEGRATION\capitalnxremote\;C:\Users\domra\AppData\Local\Microsoft\WindowsApps;C:\Users\domra\AppData\Local\GitHubDesktop\bin;D:\Tools\Microsoft VS Code\bin
+Command Line: mech_assembly_sim3-solution_1.dat prog=bundle old=no scratch=yes sys442=2
+Current Dir: D:\MainFolder\Programs\Mechanics & Machines\IgorMAMfiles\mamcw.prj\Model\Iter3\mech_assembly
+Executable:  d:/tools/siemensnx/nxnastran/scnas/em64tntl/analysis.exe
+NXN_MSG:     stderr
+FPE:         no
+--------------------------------------------------------------------------------------
+Current resource limits:
+ Physical memory:                    16268 MB
+ Physical memory available:           8490 MB
+ Paging file size:                   18700 MB
+ Paging file size available:          7841 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134213557 MB
+--------------------------------------------------------------------------------------
+System configuration:
+ Hostname:         DESKTOP-0UUJCF0
+ Architecture:     em64tnt
+ Platform:         Intel64 Family 6 Model 142 Stepping 10 Windows 10  
+ Model:            Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+ Clock freq.:      1992 MHz
+ Number of CPUs:   8
+ Executable:       standard
+ Raw model ID:     8666
+ Config number:    8666
+ Physical memory:  16268 MB
+ Virtual memory:   18700 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: Remote capabilities not available.
+--------------------------------------------------------------------------------------
+Simcenter Nastran started  Mon May 15 23:12:23 R2( 2023
+ 23:12:23  Beginning Analysis
+
+ 23:12:23  Simcenter NASTRAN Authorization Information - System Attributes
+ 23:12:23  --------------------------------------------------------
+ 23:12:23  Model: Intel(R) Core(TM) i7-8550U CPU @
+ 23:12:23  Machine: Intel64 Family 6 Model 142 Stepp
+ 23:12:23  OS: Windows 10
+ 23:12:23  Version:
+ 23:12:23  License File(s): 27800@localhost
+
+
+ 23:12:23  Simcenter NASTRAN Licensing Information
+ 23:12:23  --------------------------------------
+ 23:12:23  Sold To ID:            1002010 - *SolidSQUAD*
+ 23:12:23  Webkey Access Code:    5555555555
+ 23:12:23  License File Issuer:   UGS
+
+
+ 23:12:23  Simcenter NASTRAN Authorization Information - Checkout Successful
+ 23:12:23  -----------------------------------------------------------------
+ 23:12:23  License for module Simcenter Nastran Basic - NX Desktop (Bundle)  checked out successfully
+
+ 23:12:23  Loading Shared Library D:\Tools\SiemensNX\nxcae_extras\tmg\exe\mayamoncomm.dll
+
+Starting viewer with UGII_MONITOR_DIR set to 'D:\Tools\SiemensNX\nxcae_extras\tmg\exe'
+Starting monitor viewer at D:\Tools\SiemensNX\nxcae_extras\tmg\exe/xcsmon_viewer.exe
+ 23:12:24  Viewer API version is:    11
+ 23:12:24  Viewer API minor version is:     6
+ 23:12:24  Monitor Version Info: Simcenter 3D Simulation Control Monitor 2206.5 Oct 01 2022 (Version 2206.173583)
+
+ 23:12:25  Analysis started.
+ 23:12:25  Geometry access/verification to CAD part initiated (if needed).
+ 23:12:25  Geometry access/verification to CAD part successfully completed (if needed).
+ 23:12:26  Finite element model generation started.
+ 23:12:28  Finite element model generated 233922 degrees of freedom.
+ 23:12:28  Finite element model generation successfully completed.
+ 23:12:28  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:12:28  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:12:30  Solution of the system equations for linear statics started.
+ 23:12:30  Solution of the system equations for linear statics successfully completed.
+ 23:12:30  Linear static analysis completed.
+ 23:12:37  NSEXIT: EXIT(0)
+ 23:12:38  Analysis complete  0
+Real:       14.834 seconds ( 0:00:14.834)
+User:        5.640 seconds ( 0:00:05.640)
+Sys:         0.843 seconds ( 0:00:00.843)
+Simcenter Nastran finished Mon May 15 23:12:38 R2( 2023
