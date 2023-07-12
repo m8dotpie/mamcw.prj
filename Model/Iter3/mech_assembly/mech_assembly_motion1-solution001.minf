@@ -1,0 +1,545 @@
+Input file: D:\MainFolder\Programs\Mechanics & Machines\IgorMAMfiles\mamcw.prj\Model\Iter3\mech_assembly\mech_assembly_motion1-solution001.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2022
+
+
+[1764]
+Info: The Business Analytics flag has been set to Yes.
+
+Solver: Simcenter 3D Motion Version 2206.0001 (13.0) Sep  6 2022 03:30:13 Intel Release 64bit
+Interface: RC2206_6000 2022-09-14
+Hostname: DESKTOP-0UUJCF0
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.50000000000000E-03
+  old MAX.int.step = 5.0000000000000E-02
+  new MAX.int.step = 0.50000000000000E-03
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [27800@localhost]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   40
+Number of generalized coordinates     =                   43
+
+[1516]
+Warning: Prior to the assembly analysis one or more constraints are not
+satisfied within the specified assembly tolerance.  The assembly analysis will
+attempt to adjust the model to achieve this tolerance across all constraints.
+If assembly analysis fails, or if the model assembles to an undesired position
+the following elements whose constraint residuals exceed the specified assembly
+tolerance should be checked:
+                                 Constraint
+.........Element Type.........  ..Number..  ..Violation..  ........Name........
+ Driver element                     1       -2.356194    
+Drv001_RZ
+
+Results achieved by the model assembly process without drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.100000E-02
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X             0.10040        0.10040         0.0000    
+    Y             0.57203E-01    0.57203E-01     0.0000    
+    Z             0.64344        0.64344         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X             0.10018        0.10018         0.0000    
+    Y             0.61843E-01    0.61843E-01     0.0000    
+    Z             0.59447        0.59447         0.0000    
+    E0           -0.35962E-01   -0.35962E-01     0.0000    
+    E1            0.70584        0.70584         0.0000    
+    E2            0.70666        0.70666         0.0000    
+    E3            0.33538E-01    0.33538E-01     0.0000    
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X             0.66574E-01    0.66574E-01     0.0000    
+    Y             0.78416E-01    0.78416E-01     0.0000    
+    Z             0.37163        0.37163         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1           -0.35033E-03   -0.35033E-03     0.0000    
+    E2            0.16463E-02    0.16463E-02     0.0000    
+    E3           -0.20596E-05   -0.20596E-05     0.0000    
+
+ Element: B004
+    Coordinate    New Value     Original Value  Difference
+    X             0.10040        0.10040         0.0000    
+    Y             0.78416E-01    0.78416E-01     0.0000    
+    Z             0.25285        0.25285         0.0000    
+    E0           -0.96968E-06   -0.96968E-06     0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2            0.70710        0.70710         0.0000    
+    E3           -0.20643E-06   -0.20643E-06     0.0000    
+
+ Element: B005
+    Coordinate    New Value     Original Value  Difference
+    X             0.33668E-02    0.33668E-02     0.0000    
+    Y             0.86377E-01    0.86377E-01     0.0000    
+    Z             0.18794        0.18794         0.0000    
+    E0            0.37651        0.37651         0.0000    
+    E1            0.61185        0.61185         0.0000    
+    E2            0.61445        0.61445         0.0000    
+    E3            0.32609        0.32609         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: Drv001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.16737E-13   -0.16737E-13     0.0000    
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     5
+  Maximum constraint violation   =   0.992904E-03
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X             0.10040        0.10040         0.0000    
+    Y             0.57203E-01    0.57203E-01     0.0000    
+    Z             0.64344        0.64344         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X             0.10018        0.10018        0.61652E-08
+    Y            -0.79505E-02    0.61843E-01   -0.69794E-01
+    Z             0.51753        0.59447       -0.76945E-01
+    E0           -0.11701       -0.35962E-01   -0.81048E-01
+    E1            0.69700        0.70584       -0.88347E-02
+    E2            0.69810        0.70666       -0.85610E-02
+    E3            0.11470        0.33538E-01    0.81160E-01
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X             0.66574E-01    0.66574E-01    0.61652E-08
+    Y             0.78077E-01    0.78416E-01   -0.33905E-03
+    Z             0.37081        0.37163       -0.81693E-03
+    E0            0.38315         1.0000       -0.61685    
+    E1            0.92380       -0.35033E-03    0.92415    
+    E2            0.63216E-03    0.16463E-02   -0.10141E-02
+    E3            0.15203E-02   -0.20596E-05    0.15224E-02
+
+ Element: B004
+    Coordinate    New Value     Original Value  Difference
+    X             0.10040        0.10040        0.22760E-14
+    Y             0.71475E-01    0.78416E-01   -0.69410E-02
+    Z             0.25204        0.25285       -0.80490E-03
+    E0           -0.81435E-01   -0.96968E-06   -0.81434E-01
+    E1            0.70241        0.70711       -0.47017E-02
+    E2            0.70240        0.70710       -0.47015E-02
+    E3            0.81433E-01   -0.20643E-06    0.81433E-01
+
+ Element: B005
+    Coordinate    New Value     Original Value  Difference
+    X             0.33668E-02    0.33668E-02     0.0000    
+    Y             0.86377E-01    0.86377E-01     0.0000    
+    Z             0.18794        0.18794         0.0000    
+    E0            0.37651        0.37651        0.30531E-14
+    E1            0.61185        0.61185        0.12212E-14
+    E2            0.61445        0.61445        0.88818E-15
+    E3            0.32609        0.32609       -0.78826E-14
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: Drv001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle      2.3562       -0.16737E-13     2.3562    
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "B005/J004_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "B005/J004_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 1) relative translation along X axis of "Global coordinate system"
+
+
+The remaining constraints in which the redundant
+constraints are linearly dependent to are summarized as:
+
+Name: J004
+     constraint ( 4) relative rotation about X axis of "B005/J004_j"
+     is linearly dependent to:
+
+     Name: J005
+        Constraint: ( 6) relative rotation about Z axis of "B002/J005_j"  Factor:   0.9737    
+     Name: J002
+        Constraint: ( 4) relative rotation about X axis of "B005/J002_j"  Factor:   -1.000    
+     Name: J005
+        Constraint: ( 5) relative rotation about Y axis of "B002/J005_j"  Factor:  -0.2288    
+     Name: J003
+        Constraint: ( 5) relative rotation about Y axis of "B003/J003_j"  Factor:  -0.7073    
+     Name: J003
+        Constraint: ( 4) relative rotation about X axis of "B003/J003_j"  Factor:   0.7069    
+
+Name: J004
+     constraint ( 5) relative rotation about Y axis of "B005/J004_j"
+     is linearly dependent to:
+
+     Name: J005
+        Constraint: ( 6) relative rotation about Z axis of "B002/J005_j"  Factor:  -0.2288    
+     Name: J005
+        Constraint: ( 5) relative rotation about Y axis of "B002/J005_j"  Factor:  -0.9737    
+     Name: J002
+        Constraint: ( 5) relative rotation about Y axis of "B005/J002_j"  Factor:    1.000    
+     Name: J003
+        Constraint: ( 5) relative rotation about Y axis of "B003/J003_j"  Factor:   0.7069    
+     Name: J003
+        Constraint: ( 4) relative rotation about X axis of "B003/J003_j"  Factor:   0.7073    
+
+Name: J002
+     constraint ( 1) relative translation along X axis of "Global coordinate system"
+     is linearly dependent to:
+
+     Name: B003
+        Constraint: ( 8) Euler parameter normalization of "B003/B003_cm"  Factor:   0.4417E-01
+     Name: B005
+        Constraint: ( 8) Euler parameter normalization of "B005/B005_cm"  Factor:  -0.1166    
+     Name: B002
+        Constraint: ( 8) Euler parameter normalization of "B002/B002_cm"  Factor:   0.2118E-01
+     Name: B004
+        Constraint: ( 8) Euler parameter normalization of "B004/B004_cm"  Factor:   0.5000E-01
+     Name: J005
+        Constraint: ( 6) relative rotation about Z axis of "B002/J005_j"  Factor:   0.3401E-01
+     Name: J005
+        Constraint: ( 5) relative rotation about Y axis of "B002/J005_j"  Factor:  -0.6231E-01
+     Name: J002
+        Constraint: ( 5) relative rotation about Y axis of "B005/J002_j"  Factor:  -0.1486    
+     Name: J003
+        Constraint: ( 5) relative rotation about Y axis of "B003/J003_j"  Factor:  -0.4000E-01
+     Name: J003
+        Constraint: ( 1) relative translation along X axis of "Global coordinate system"  Factor:    1.000    
+     Name: J005
+        Constraint: ( 1) relative translation along X axis of "B002/J005_j"  Factor:    1.000    
+     Name: J004
+        Constraint: ( 1) relative translation along X axis of "Global coordinate system"  Factor:    1.000    
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: B001
+    Coordinate:  E3        
+
+ Element: B001
+    Coordinate:  Y         
+
+ Element: B001
+    Coordinate:  E2        
+
+ Element: B001
+    Coordinate:  Z         
+
+ Element: B001
+    Coordinate:  X         
+
+ Element: B001
+    Coordinate:  E1        
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y            -0.729327    
+    Z             0.231270    
+    E0           -0.746003    
+    E1           -0.125236    
+    E2           -0.122761    
+    E3            0.747180    
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y            -0.425025E-02
+    Z             0.425771E-02
+    E0             5.80444    
+    E1            -2.40742    
+    E2            0.955229E-02
+    E3           -0.397195E-02
+
+ Element: B004
+    Coordinate    Velocity
+    X              0.00000    
+    Y            -0.632184E-01
+    Z            -0.148605E-01
+    E0           -0.751787    
+    E1           -0.871598E-01
+    E2           -0.871579E-01
+    E3            0.751781    
+
+ Element: B005
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Drv001_RZ
+    Coordinate    Velocity
+    Rel.angle     -12.5664    
+
+Solution of velocities in local coordinates:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y            -0.729327    
+    Z             0.231270    
+    OMEGA_XL     -0.213618E-02
+    OMEGA_YL       2.14060    
+    OMEGA_ZL     -0.745348E-02
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y            -0.425025E-02
+    Z             0.425771E-02
+    OMEGA_XL      -12.5691    
+    OMEGA_YL     -0.372759E-04
+    OMEGA_ZL     -0.413852E-01
+
+ Element: B004
+    Coordinate    Velocity
+    X              0.00000    
+    Y            -0.632184E-01
+    Z            -0.148605E-01
+    OMEGA_XL      0.168051E-04
+    OMEGA_YL       2.14062    
+    OMEGA_ZL     -0.356043E-05
+
+ Element: B005
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =    104730
+Number of integer data in the system  =     62215
+
+
+Solution of accelerations in local coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z             -9.80665    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X             0.698028E-13
+    Y              14.9037    
+    Z              7.04745    
+    OMEGAD_XL     0.581101E-01
+    OMEGAD_YL     -58.2304    
+    OMEGAD_ZL     0.202755    
+
+ Element: B003
+    Coordinate    Acceleration
+    X             0.116791E-14
+    Y             0.534801E-01
+    Z             0.534103E-01
+    OMEGAD_XL    -0.197555E-05
+    OMEGAD_YL    -0.585021E-11
+    OMEGAD_ZL    -0.650473E-08
+
+ Element: B004
+    Coordinate    Acceleration
+    X             0.342781E-14
+    Y              1.75154    
+    Z             0.268837    
+    OMEGAD_XL    -0.457145E-03
+    OMEGAD_YL     -58.2308    
+    OMEGAD_ZL     0.968535E-04
+
+ Element: B005
+    Coordinate    Acceleration
+    X             0.142884E-31
+    Y            -0.125571E-32
+    Z            -0.121859E-31
+    OMEGAD_XL     0.882457E-31
+    OMEGAD_YL    -0.491859E-31
+    OMEGAD_ZL    -0.893718E-32
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    6
+
+Total Number of Degrees of Freedom =   37
+Number of Kinematic Constraints    =   31
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    6
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    135
+  Current simulation time =    8.93751
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J005
+    Type:  Translational joint            ( 5) relative rotation about Y axis of "B002/J005_j"
+
+ Name: J003
+    Type:  Revolute joint                 ( 1) relative translation along X axis of "Global coordinate system"
+
+ Name: J005
+    Type:  Translational joint            ( 6) relative rotation about Z axis of "B002/J005_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J002
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "B005/J002_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "B005/J002_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 1) relative translation along X axis of "Global coordinate system"
+
+The number of symbolic factorizations of the Acceleration matrix =                    2
+
+The number of symbolic factorizations of BDF Jacobian matrix =                    2
+
+[1441]
+Final integrator statistics:
+  Number of steps                 =                20018
+  Number of f-s                   =                32381
+  Number of j-s                   =                  114
+  Ratio of f-s/steps              =  1.6175941652513
+  Ratio of j-s/steps              = 0.56948746128484E-02
+  Current time                    =  10.000000000000
+  Total velocity computations     =                    2
+  Total position computations     =                    3
+Average Integration Order =   1.922969327605    
+Average Step Size         =  0.4995515536018E-03
+
+Userdef was internal
+
+    Total elapsed CPU time:   1.456000    
+    Total clock time:          1
